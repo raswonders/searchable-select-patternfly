@@ -1,11 +1,11 @@
-import './App.css'
+import SearchableSelect from "./SearchableSelect";
 
 function App() {
   return (
     <>
-      <h1>Searchable Select using patternfly v6</h1>
+      <SearchableSelect />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
